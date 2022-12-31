@@ -1,0 +1,12 @@
+name: SavedStructures
+version: '${project.version}'
+main: me.improperissues.savedstructures.SavedStructures
+api-version: 1.17
+authors: [ ImproperIssues ]
+description: Import or Export Structures of your choice!
+website: github.com/ItziSpyder
+commands:
+  structure:
+    description: Manages a saved structure
+    usage: §fCorrect usage >> §7/structure [ save | load | setair | delete | givewand | help | timer ] <file name>
+    permission: structure.manage
